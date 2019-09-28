@@ -1,10 +1,20 @@
-body, *{
+*{
+  margin: 0;
+  margin: 0;
+}
+
+body{
     padding: 0;
     margin:0;
+    background-color: #f3f3f3;
 }
 
 h1,h2,h3,h4,h5,p,a{
     font-family: "Montserrat", sans-serif;
+}
+
+p{
+ color: #606060;
 }
 
 .navbar-brand{
@@ -183,7 +193,7 @@ navbar {
     width: 70%;
     right: 0;
     z-index: -99999;
-    height: 850px;
+    height: 900px;
   }
 
 .big-title{
@@ -217,43 +227,8 @@ navbar {
   color: #f6a500;
 }
 
-.btn-list{
-    list-style: none;
-    display: flex;
-    padding: 2em;
-}
-
-.btn-list li{
-    padding: 1em;
-}
-
-.blue-btn{
-    color: #fff;
-    display: inline-block;
-    font-size: 13px;
-    letter-spacing: 1px;
-    padding: 12px 40px;
-    text-transform: uppercase;
-    border-radius: 40px;
-    background: #0077B5;
-    border: 1px solid #0077B5;
-    text-decoration: none;
-}
-
-.learn-btn{
-    color: #fff;
-    border: 1px solid #fff;
-    display: inline-block;
-    font-size: 13px;
-    letter-spacing: 1px;
-    padding: 14px 35px;
-    text-transform: uppercase;
-    border-radius: 40px;
-    text-decoration: none;
-}
-
 .about{
-  padding-top: 63vw;
+  padding-top: 70vw;
   padding-left: 1vw;
 }
 
@@ -292,12 +267,193 @@ navbar {
 
 .description p{
   font-size: 16px;
-  color: #606060;
   line-height: 1.8;
+}
+
+.timeline-content{
+  border-top: 1px solid #e0e0e0;
 }
 
 .timeline-content ul{
   display: flex;
   list-style: none;
+  justify-content: center;
+  padding-left: 12vw;
+  padding-right: 6vw;
+}
+
+.timeline-content li{
+  width: 50%;
+  padding: 2em;
+  margin-top: -102px;
+}
+
+.black-dot{
+  font-size: 80px;
+}
+
+.timeline-content h3{
+  font-family: "Libre Baskerville", serif;
+  line-height: 1;
+  font-weight: 100;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+strong{
+  font-size: 41px;
+  font-family: "Khula", sans-serif;
+}
+
+.services{
+  padding: 4em;
+}
+
+.services-content{
+  display: flex;
+  justify-content: center;
+}
+
+.services-text{
+  width: 36%;
+}
+
+.services-text h3{
+  margin-bottom: 40px;
+  line-height: 0.4;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  font-size: 38px;
+}
+
+.services strong{
+  font-size: 50px;
+}
+
+.intro{
+  font-family: "Libre Baskerville", serif;
+  color: #1c1b20;
+  font-size: 17px;
+}
+
+.whiteboard{
+  padding: 2em;
+}
+
+.whiteboard img{
+  width: 500px;
+}
+
+.user-visual{
+  padding: 2em;
+}
+
+.user-visual img{
+  width: 700px;
+}
+
+.user-section{
+  display: flex;
+}
+
+.user-content{
+  padding: 1em;
+}
+
+.user-content h3{
+  margin-left: -200px;
+  margin-top: 3em;
+  line-height: 0.5;
+  margin-bottom: 80px;
+  font-family: "Libre Baskerville", serif;
+  font-size:35px;
+}
+
+.user-content strong{
+  font-size: 60px;
+}
+
+.companies{
+  display: flex;
+  align-items: center;
+}
+
+.slider-container{
+  padding: 8em;
+}
+
+.slide img{
+  width: 250px;
+  height: 100px;
+}
+
+.companies-content{
+  width: 50%;
+}
+
+.companies-content h3{
+  line-height: 0.5;
+  margin-bottom: 40px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+}
+
+.companies-content storng{
+  font-size: 70px;
+}
+
+.contact{
+  background: #414a6b;
+}
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}
+
+.info{
+  padding: 2em;
+}
+
+.info h3{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
+  color: #fff;
+}
+
+.info strong{
+  font-size: 34px;
+}
+
+.more{
+  padding-top: 1.5em;
+  width: 50%;
+}
+
+.more p, a{
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.more a {
+  font-family: "Libre Baskerville", serif;
+  text-decoration: none;
+}
+
+footer{
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -9999999;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
   padding: 2em;
 }
