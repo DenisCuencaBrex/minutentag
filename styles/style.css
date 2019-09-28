@@ -9,6 +9,10 @@ body{
     background-color: #f3f3f3;
 }
 
+.about, .timeline, .services, .user, .companies{
+  background-color: #f3f3f3;
+}
+
 h1,h2,h3,h4,h5,p,a{
     font-family: "Montserrat", sans-serif;
 }
@@ -192,7 +196,6 @@ navbar {
     top: 7%;
     width: 70%;
     right: 0;
-    z-index: -99999;
     height: 900px;
   }
 
@@ -204,6 +207,7 @@ navbar {
   top: 22%;
   left: 20%;
   line-height: 0.9;
+  z-index: 9;
 }
 
 .big-title span{
@@ -221,6 +225,7 @@ navbar {
   top: 40%;
   width: 45%;
   font-weight: 900;
+  z-index: 9;
 }
 
 .yellow{
@@ -444,16 +449,35 @@ strong{
 }
 
 footer{
-  display: block;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: -9999999;
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	z-index: -999999;
+	height: 50px;
 }
 
 .footer-content{
   display: flex;
   justify-content: space-around;
-  padding: 2em;
+  margin: 3.5em;
+}
+
+.work a{
+  color: #1c1b20;
+  text-decoration: none;
+}
+
+.phone p{
+  font-size: 16px;
+  line-height: 1.4;
+  color: #1c1b20;
+  font-weight: 300;
+}
+
+.street{
+  font-family: "Libre Baskerville", serif;
+}
+
+.bold{
+  font-family: "Khula", sans-serif;
 }
